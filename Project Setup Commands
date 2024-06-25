@@ -1,0 +1,23 @@
+# Create a new React project
+npx create-react-app drone-pros-crm-assessment
+cd drone-pros-crm-assessment
+
+# Install necessary dependencies
+npm install lucide-react
+
+# Replace the contents of src/App.js with our component
+# (We'll do this in the next step)
+
+# Update index.css with Tailwind directives
+# (We'll do this in a subsequent step)
+
+# Install Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+# Create a GitHub repository and push the code
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <your-github-repo-url>
+git push -u origin main
